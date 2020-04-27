@@ -8,8 +8,6 @@ Setup:
 run `npm install` && `npm start` for both client and server side to start the development server
 
 Screenshots:
-Login form
-<img src="https://i.imgur.com/d6PGYmR.png" />
 
-Chat Room
+<img src="https://i.imgur.com/d6PGYmR.png" />
 <img src="https://i.imgur.com/D3Szws8.png" />
