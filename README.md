@@ -9,5 +9,4 @@ run `npm install` && `npm start` for both client and server side to start the de
 
 Screenshots:
 
-<img src="https://i.imgur.com/d6PGYmR.png" />
-<img src="https://i.imgur.com/D3Szws8.png" />
+<img src="https://i.imgur.com/YEPGLUV.png" />
