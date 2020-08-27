@@ -1,16 +1,89 @@
-A RealTime Chat Application
+# Mini Project: A RealTime Chat Application
 
-Im going to use `React` on the Front End, with `NodeJS` + `Socket.io` web socket library on the backend.
+## Date: 27 - Apr - 2020
 
-By the end of this project, i have a strong understanding of how to send & receive messages using web sockets and Socket.io to make any realtime application
+### Tech-Stack
 
-Setup:
-run `npm install` && `npm start` for both client and server side to start the development server
+Client: 
+  - React
 
-### [Live Site](https://5ea6fafba0014549d02fc211--naughty-galileo-51d0c1.netlify.app/)
+Server:
+  - NodeJS
+  - ExpressJS
+  - Socket.io
+  
+### Deploy
 
-### [Live Server](https://react-chat-application-vxcvxc.herokuapp.com/)
+[Live Site](https://5ea6fafba0014549d02fc211--naughty-galileo-51d0c1.netlify.app/)
+[Live Server](https://react-chat-application-vxcvxc.herokuapp.com/)
 
-Screenshots:
+
+### Screenshot
 
 <img src="https://i.imgur.com/YEPGLUV.png" />
+
+### Plan Of Action
+- Initial project
+- Server setup
+- basic setup for user joining
+- user disconnecting
+- add user function
+- add user join function
+- Client setup
+- Create InfoBar component
+- Create icons
+- create sendMessage function
+- Create Input component
+- Create Message component
+- Add Messages component
+- Create disconnect function
+- Create multi users in room function
+- Add Emoji function
+- Create TextContainer component
+- Add function: people currently chatting
+- Refactor to deploy
+- Update live site
+
+### After this project
+
+I have understand about
+- i have a strong understanding of how to send & receive messages using web sockets and Socket.io to make any realtime application
+
+Next Steps:
+
+### Directory Structure
+
+```
+.
+├── client
+    ├── public
+    ├── src
+        ├── components
+            ├── Chat
+            ├── InfoBar
+            ├── Input
+            ├── Join
+            ├── Messages
+            ├── TextContainer
+            └── index.js
+        ├── icons
+        ├── App.js
+        └── index.js
+    ├── .gitignore
+    └── package.json
+├── server
+    ├── index.js
+    ├── router.js
+    ├── user.js
+    ├── .gitignore
+    ├── package.json
+└── README.md
+
+```
+### Set up
+
+Clone git to your computer
+  - `git clone`
+Run for both client and server side to start the development server
+  - `npm install`
+  - `npm start`
